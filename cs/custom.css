@@ -1,0 +1,33 @@
+.main{
+    background-image: url(./image/bg.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 45px 0 0px 0;
+    margin-bottom: 30px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+body{
+	font-family: 'Noto Nastaliq Urdu', serif;
+}
+.title{
+	font-size: 14px;
+	font-family: 'Noto Nastaliq Urdu', serif;
+	font-weight: 600;
+}
+.container{
+	width: 900px;
+}
+.title2{
+	flex: auto;
+	border-bottom: 1px solid #000
+}
+.formgroup{
+	   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72%;
+    margin-top: 48px;
+}
